@@ -191,7 +191,6 @@ while running:
                 elif event.key == pygame.K_DOWN:
                     dy = 1
 
-                # Новые координаты с зацикливанием
                 new_x = (player.pos_x + dx) % max_width
                 new_y = (player.pos_y + dy) % max_height
 
